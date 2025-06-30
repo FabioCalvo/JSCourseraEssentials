@@ -8,7 +8,6 @@ let userMessage;
 let userType = "subscriber";
 let userCategory = "Unknown";
 
-
 let isAuthenticated = true;
 
 if (userRole === "admin") {
@@ -48,5 +47,4 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 console.log("Access Level:", accessLevel);
 console.log("User Message:", userMessage);
 console.log("User Category:", userCategory);
-
 console.log("Authentication Status:", authenticationStatus);
