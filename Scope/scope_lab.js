@@ -25,8 +25,19 @@ function show(){
 }
 
 show();
-console.log(functionVar); // Throws ReferenceError
-console.log(functionLet); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
-    
-    
+// console.log(functionVar); // Throws ReferenceError
+// console.log(functionLet); // Throws ReferenceError
+// console.log(functionConst); // Throws ReferenceError
+
+{
+    var username = "FabieX";
+    let lastname = "Calvo";
+    const age = 56;
+
+    console.log(lastname);
+    lastname = "Bolanos";
+    console.log(lastname);  
+}
+lastname = "Calvo";
+console.log(lastname);  
+
